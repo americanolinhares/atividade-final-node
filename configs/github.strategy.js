@@ -4,9 +4,9 @@ const GitHubStrategy = require("passport-github").Strategy;
 passport.use(
   new GitHubStrategy(
     {
-      clientID: "Iv1.4528d21c2615cfc6",
-      clientSecret: "a37db57a5b7f8c3239d3d623372371de97291555",
-      callbackURL: "http://localhost:3000/auth/github/callback"
+      clientID: "7252e170e4ec5887dfac",
+      clientSecret: "a71dbf241060c16a145d402a111adb01ee00034a",
+      callbackURL: "https://armazena-arquivo.herokuapp.com/"
     },
     function(accessToken, refreshToken, profile, done) {
       const onError = () => {
