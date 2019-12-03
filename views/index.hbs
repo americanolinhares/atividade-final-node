@@ -6,14 +6,15 @@
         <form class="form-signin" action="/auth/github">
             <img class="mb-4 icone" src="/img/icone_arquivo.png" alt="">
             <h1 class="h3 mb-3 font-weight-normal">Faça login</h1>
+            <p class="alerta">** Este login com e-mail e senha é ilustrativo e inativo. Tente o Login com o Linkedin. **</p>
             <label for="inputEmail" class="sr-only">Endereço de email</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Seu email">
+            <input type="email" id="inputEmail" class="form-control" placeholder="Seu email" disabled>
             <label for="inputPassword" class="sr-only">Senha</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Senha">
+            <input type="password" id="inputPassword" class="form-control" placeholder="Senha" disabled>
             <div class="checkbox mb-3">
-                <label> <input type="checkbox" value="remember-me"> Lembrar de mim </label>
+                <label> <input type="checkbox" value="remember-me" disabled> Lembrar de mim </label>
             </div>
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+            <button class="btn btn-lg btn-primary btn-block" disabled>Login</button>
             <hr>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Login Linkedin  <i class="fab fa-linkedin"></i></button>
             <br />

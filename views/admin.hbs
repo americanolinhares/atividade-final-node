@@ -1,4 +1,16 @@
-<h1>{{user.displayName}},</h1>
-<h2>Bem Vindo ao {{user.provider}}!</h2>
-
-<a href="/logout">Logout</a>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="parte1">
+            <p class="navbar-brand">
+                <span class="empresa">GuardeAqui<br /></span>
+                <span class="servico">Sistema de Armazenamento de Arquivos</span>
+            </p>
+        </div>
+        <div class="parte2 servico">
+            <span>{{user.displayName}} <i class="far fa-user-circle"></i></span>
+        </div>
+        <div class="parte3">
+            <a class="btn btn-outline-secondary" href="/logout">Logout</a>
+        </div>
+    </nav>
+</header>
