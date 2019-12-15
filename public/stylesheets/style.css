@@ -7,6 +7,24 @@ body {
   padding-top: 40px;
 }
 
+.salvar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.lixo {
+  text-align: center;
+}
+
+.col-arquivo {
+  width: 90%;
+}
+
+.col-remover {
+  width: 10%;
+}
+
 .frame {
   padding-top: 30px;
 }

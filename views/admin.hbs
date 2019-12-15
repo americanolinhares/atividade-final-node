@@ -16,8 +16,29 @@
 </header>
 
 <div class="frame">
-    <div class="areaupload">
+    <div id="areaupload">
         <i class="fas fa-plus"></i>
         <p id="drop"> Arraste o arquivo aqui </p>
     </div>
+</div>
+
+<div class="salvar">
+    <button type="button" class="btn btn-secondary btn-sm btn-block">Armazenar Arquivo</button>
+</div>
+
+<div class="lista">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th class="col-arquivo" scope="col">Arquivos</th>
+                <th class="lixo" scope="col-remover">Remover</th>
+            </tr>
+        </thead>
+        <tbody id="tabela">
+            <tr>
+                <td>Mark</td>
+                <td class="lixo"><i class="fas fa-trash-alt"></i></td>
+            </tr>
+        </tbody>
+    </table>
 </div>
